@@ -23,7 +23,7 @@ build:
 variables:
     env:
         # Update this value to control the version of Nextcloud to install.
-        NEXTCLOUD_VERSION: 20.0.1
+        NEXTCLOUD_VERSION: 24.0.4
         front_controller_active: true
     php:
         opcache.interned_strings_buffer: 8
