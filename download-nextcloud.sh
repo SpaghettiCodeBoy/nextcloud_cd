@@ -18,7 +18,7 @@ run() {
     # Run the compilation process.
     cd $PLATFORM_CACHE_DIR || exit 1;
 
-    DOWNLOAD_URL="https://download.nextcloud.com/server/releases/nextcloud-${1}.tar.bz2"
+    DOWNLOAD_URL="https://download.nextcloud.com/server/releases/nextcloud-24.0.4.tar.bz2"
 
     ensure_download "${DOWNLOAD_URL}" "$1"
     ensure_unpack "$1"
